@@ -34,7 +34,7 @@ User Query → FAISS Similarity Search → Top-K Doc Retrieval
 - Greeting detection short-circuits the FAISS + LLM pipeline entirely for efficiency
 - Exposed as a **Flask REST API** (`POST /ask_ai`) with structured JSON responses
 
-**Stack:** `LangChain` · `FAISS` · `Groq (LLaMA 3-8b-8192)` · `Google Generative AI Embeddings` · `Flask` · `MongoDB`
+**Stack:** `LangChain` · `FAISS` · `Groq (LLaMA 3-8b-8192)` · `Google Generative AI Embeddings` · 
 
 ---
 
