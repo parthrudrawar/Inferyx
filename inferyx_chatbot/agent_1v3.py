@@ -23,8 +23,8 @@ from inferyx.components.data_preparation import AppConfig, Datapod
 load_dotenv("/app/framework/test/env.txt")
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 INFERYX_HOST = os.getenv("INFERYX_HOST", "dev.inferyx.com")
-INFERYX_APP_TOKEN = os.getenv("INFERYX_APP_TOKEN", "OwWji5rBNaSNJoJhItCYjQ4wTdPLUmluqOlqXs2k")
-INFERYX_ADMIN_TOKEN = os.getenv("INFERYX_ADMIN_TOKEN", "iresTHOb208NrFOuLbdrgNNYuUNHYOrCyeQRrISL")
+INFERYX_APP_TOKEN = os.getenv("INFERYX_APP_TOKEN", "inferyx_token")
+INFERYX_ADMIN_TOKEN = os.getenv("INFERYX_ADMIN_TOKEN", "inferyx_admin")
 FILE_PATH = os.getenv("INFERYX_FILE_PATH", "/app/framework/upload/dummy.csv")
 
 # ✅ Check for file
