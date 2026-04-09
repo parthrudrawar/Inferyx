@@ -192,4 +192,4 @@ python inferyx_chatbot/folder_to_kg_v4.py
 
 ---
 
-*Built at Inferyx · Internship Project · 2024*
+*Built at Inferyx · Internship Project · 2025*
